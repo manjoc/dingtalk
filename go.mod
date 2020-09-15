@@ -1,4 +1,4 @@
-module github.com/manjoc/dingtalk/v2
+module github.com/manjoc/dingtalk
 
 go 1.15
 
