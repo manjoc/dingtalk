@@ -2,7 +2,7 @@ package dingtalk
 
 import (
 	"bytes"
-	"github.com/CatchZeng/gutils/version"
+	"github.com/manjoc/gutils/version"
 	"log"
 	"os"
 	"strings"

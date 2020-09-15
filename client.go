@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CatchZeng/dingtalk/internal/security"
+	"github.com/manjoc/dingtalk/internal/security"
 )
 
 // Client dingtalk client

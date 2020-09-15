@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/CatchZeng/dingtalk/cmd/dingtalk"
+	"github.com/manjoc/dingtalk/cmd/dingtalk"
 	"log"
 )
 

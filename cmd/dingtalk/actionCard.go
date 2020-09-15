@@ -1,8 +1,8 @@
 package dingtalk
 
 import (
-	"github.com/CatchZeng/dingtalk"
-	"github.com/CatchZeng/gutils/log"
+	"github.com/manjoc/dingtalk"
+	"github.com/manjoc/gutils/log"
 	"github.com/spf13/cobra"
 )
 

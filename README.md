@@ -1,12 +1,14 @@
 # dingtalk
 
-![Go](https://github.com/CatchZeng/dingtalk/workflows/Go/badge.svg)
-[![codecov](https://codecov.io/gh/CatchZeng/dingtalk/branch/master/graph/badge.svg)](https://codecov.io/gh/CatchZeng/dingtalk)
-[![Go Report Card](https://goreportcard.com/badge/github.com/CatchZeng/dingtalk)](https://goreportcard.com/report/github.com/CatchZeng/dingtalk)
-[![Release](https://img.shields.io/github/release/CatchZeng/dingtalk.svg)](https://github.com/CatchZeng/dingtalk/releases)
-[![GoDoc](https://godoc.org/github.com/CatchZeng/dingtalk?status.svg)](https://pkg.go.dev/github.com/CatchZeng/dingtalk?tab=doc)
+fork from https://github.com/CatchZeng/dingtalk
 
-[English](https://github.com/CatchZeng/dingtalk/blob/master/READMEEN.md)
+![Go](https://github.com/manjoc/dingtalk/workflows/Go/badge.svg)
+[![codecov](https://codecov.io/gh/CatchZeng/dingtalk/branch/master/graph/badge.svg)](https://codecov.io/gh/CatchZeng/dingtalk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/manjoc/dingtalk)](https://goreportcard.com/report/github.com/manjoc/dingtalk)
+[![Release](https://img.shields.io/github/release/CatchZeng/dingtalk.svg)](https://github.com/manjoc/dingtalk/releases)
+[![GoDoc](https://godoc.org/github.com/manjoc/dingtalk?status.svg)](https://pkg.go.dev/github.com/manjoc/dingtalk?tab=doc)
+
+[English](https://github.com/manjoc/dingtalk/blob/master/READMEEN.md)
 
 > DingTalk(dingding) 是钉钉机器人的 go 实现。支持 `Docker`、`Jenkinsfile`、`命令行`模式，`module` 模式，支持`加签`安全设置，支持`链式语法`创建消息，支持`文本、链接、Markdown、ActionCard、FeedCard` 消息类型
 
@@ -16,15 +18,15 @@
 
 ## 特性
 
-- [x] 支持[Docker](https://github.com/CatchZeng/dingtalk#Docker)
+- [x] 支持[Docker](https://github.com/manjoc/dingtalk#Docker)
 
-- [x] 支持[Jenkinsfile](https://github.com/CatchZeng/dingtalk#Jenkinsfile)
+- [x] 支持[Jenkinsfile](https://github.com/manjoc/dingtalk#Jenkinsfile)
 
-- [x] 支持[module](https://github.com/CatchZeng/dingtalk#%E4%BD%9C%E4%B8%BA-module)
+- [x] 支持[module](https://github.com/manjoc/dingtalk#%E4%BD%9C%E4%B8%BA-module)
 
-- [x] 支持[命令行模式](https://github.com/CatchZeng/dingtalk#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
+- [x] 支持[命令行模式](https://github.com/manjoc/dingtalk#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
 
-- [x] 支持[配置文件](https://github.com/CatchZeng/dingtalk#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
+- [x] 支持[配置文件](https://github.com/manjoc/dingtalk#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 
 - [x] 支持加签
 
@@ -62,12 +64,12 @@ docker pull catchzeng/dingtalk
 
 ### 二进制安装
 
-到 [releases](https://github.com/CatchZeng/dingtalk/releases/) 下载相应平台的二进制可执行文件，然后加入到 PATH 环境变量即可。
+到 [releases](https://github.com/manjoc/dingtalk/releases/) 下载相应平台的二进制可执行文件，然后加入到 PATH 环境变量即可。
 
 ### go get 安装
 
 ```shell
-go get github.com/CatchZeng/dingtalk
+go get github.com/manjoc/dingtalk
 ```
 
 ## 使用方法
@@ -118,7 +120,7 @@ package main
 import (
     "log"
 
-    "github.com/CatchZeng/dingtalk"
+    "github.com/manjoc/dingtalk"
 )
 
 func main() {

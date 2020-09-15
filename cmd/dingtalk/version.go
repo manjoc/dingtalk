@@ -1,7 +1,7 @@
 package dingtalk
 
 import (
-	"github.com/CatchZeng/gutils/version"
+	"github.com/manjoc/gutils/version"
 	"log"
 
 	"github.com/spf13/cobra"

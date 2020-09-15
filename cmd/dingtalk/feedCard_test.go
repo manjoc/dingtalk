@@ -4,7 +4,7 @@ import (
 	"bou.ke/monkey"
 	"bytes"
 	"errors"
-	"github.com/CatchZeng/dingtalk"
+	"github.com/manjoc/dingtalk"
 	"github.com/spf13/cobra"
 	"log"
 	"os"

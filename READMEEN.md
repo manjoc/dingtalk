@@ -1,12 +1,12 @@
 # dingtalk
 
-![Go](https://github.com/CatchZeng/dingtalk/workflows/Go/badge.svg)
+![Go](https://github.com/manjoc/dingtalk/workflows/Go/badge.svg)
 [![codecov](https://codecov.io/gh/CatchZeng/dingtalk/branch/master/graph/badge.svg)](https://codecov.io/gh/CatchZeng/dingtalk)
-[![Go Report Card](https://goreportcard.com/badge/github.com/CatchZeng/dingtalk)](https://goreportcard.com/report/github.com/CatchZeng/dingtalk)
-[![Release](https://img.shields.io/github/release/CatchZeng/dingtalk.svg)](https://github.com/CatchZeng/dingtalk/releases)
-[![GoDoc](https://godoc.org/github.com/CatchZeng/dingtalk?status.svg)](https://pkg.go.dev/github.com/CatchZeng/dingtalk?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/manjoc/dingtalk)](https://goreportcard.com/report/github.com/manjoc/dingtalk)
+[![Release](https://img.shields.io/github/release/CatchZeng/dingtalk.svg)](https://github.com/manjoc/dingtalk/releases)
+[![GoDoc](https://godoc.org/github.com/manjoc/dingtalk?status.svg)](https://pkg.go.dev/github.com/manjoc/dingtalk?tab=doc)
 
-[中文](https://github.com/CatchZeng/dingtalk/blob/master/README.md)
+[中文](https://github.com/manjoc/dingtalk/blob/master/README.md)
 
 > DingTalk (dingding) is the go implementation of the DingTalk robot. Support `Docker`, `Jenkinsfile`,`command line` mode, `module` mode, `signature security` settings, `chain syntax` to create messages, support `text, link, markdown、ActionCard、FeedCard` message types.
 
@@ -16,15 +16,15 @@
 
 ## Feature
 
-- [x] Support [Docker](https://github.com/CatchZeng/dingtalk#Docker)
+- [x] Support [Docker](https://github.com/manjoc/dingtalk#Docker)
 
-- [x] Support [Jenkinsfile](https://github.com/CatchZeng/dingtalk#Jenkinsfile)
+- [x] Support [Jenkinsfile](https://github.com/manjoc/dingtalk#Jenkinsfile)
 
-- [x] Support [module](https://github.com/CatchZeng/dingtalk/blob/master/READMEEN.md#use-as-module)
+- [x] Support [module](https://github.com/manjoc/dingtalk/blob/master/READMEEN.md#use-as-module)
 
-- [x] Support [Command Line Mode](https://github.com/CatchZeng/dingtalk/blob/master/READMEEN.md#use-as-command-line-tool)
+- [x] Support [Command Line Mode](https://github.com/manjoc/dingtalk/blob/master/READMEEN.md#use-as-command-line-tool)
 
-- [x] Support [config.yaml](https://github.com/CatchZeng/dingtalk/blob/master/READMEEN.md#config.yaml)
+- [x] Support [config.yaml](https://github.com/manjoc/dingtalk/blob/master/READMEEN.md#config.yaml)
 
 - [x] Support sign
 
@@ -62,12 +62,12 @@ docker pull catchzeng/dingtalk
 
 ### binary
 
-Go to [releases](https://github.com/CatchZeng/dingtalk/releases/) to download the binary executable file of the corresponding platform, and then add it to the PATH environment variable.
+Go to [releases](https://github.com/manjoc/dingtalk/releases/) to download the binary executable file of the corresponding platform, and then add it to the PATH environment variable.
 
 ### with go get
 
 ```shell
-go get github.com/CatchZeng/dingtalk
+go get github.com/manjoc/dingtalk
 ```
 
 ## Usage
@@ -118,7 +118,7 @@ package main
 import (
     "log"
 
-    "github.com/CatchZeng/dingtalk"
+    "github.com/manjoc/dingtalk"
 )
 
 func main() {

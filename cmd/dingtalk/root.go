@@ -3,8 +3,8 @@ package dingtalk
 import (
 	"errors"
 	"fmt"
-	"github.com/CatchZeng/dingtalk"
-	"github.com/CatchZeng/dingtalk/configs"
+	"github.com/manjoc/dingtalk"
+	"github.com/manjoc/dingtalk/configs"
 	"github.com/spf13/viper"
 	"log"
 	"os"

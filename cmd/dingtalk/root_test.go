@@ -3,7 +3,7 @@ package dingtalk
 import (
 	"bou.ke/monkey"
 	"errors"
-	"github.com/CatchZeng/dingtalk/configs"
+	"github.com/manjoc/dingtalk/configs"
 	"testing"
 )
 
